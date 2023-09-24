@@ -1,0 +1,14 @@
+<html> 
+<p>fournisseur works!</p>
+<div [hidden]="hide">
+    <div style="border: 1px solid red; padding: 10px;">
+      <ul>
+        <li>ID du Fournisseur : {{idFournisseur}} </li>
+        <li>Code : {{code}} </li>
+        <li>Libellé : {{libelle}} </li>
+      </ul>
+      <button (click)="toggleHide()">Cacher</button>
+
+    </div> 
+</div>
+</html>
